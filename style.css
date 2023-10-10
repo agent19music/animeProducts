@@ -46,18 +46,13 @@ color: antiquewhite;
  background-color: rgb(23, 229, 23);
 }
 
-#username {
-  font-size:17px ;
-}
 
 #mainDisplay{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  overflow-y: scroll;
-  height: 100vh;
-}
+  }
 #mainDisplay img{
- width: 170px;
- margin: 1%;
+ width: 180px;
+ padding: auto;
 }
