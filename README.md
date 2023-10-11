@@ -4,8 +4,8 @@
 
 ## Table of Contents
 
-- [Overview](#features)
-- [Features](#getting-started)
+- [Overview](#overview)
+- [Features](#features)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -31,7 +31,6 @@ This is a simple web application that allows you to manage and explore anime inf
 ## Setup
 1. Clone this repository to your local machine.
 2. Open the `index.html` file in your browser to view the application.
-3. The application should now be running locally. You can access it by opening a web browser and navigating to http://localhost:3000.
 
 
 ## Usage
@@ -52,22 +51,22 @@ This is a simple web application that allows you to manage and explore anime inf
   Modify the details you want to update.
   Click "Update" to save your changes.
 
--Add Anime:
+- Add Anime:
  Click the "Add New Anime" link.
  Fill in the details of the new anime, such as title, release date, description, poster URL,  episodes, and rating.
  Click "Add Anime" to add the new entry.
 
 ## Known Bugs
--The app work fine.
+- The app work fine.
 ## Contributing
 - Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
- Fork the project.
- Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name or bugfix/your-bugfix-name.
- Make your changes.
- Commit your changes: git commit -m 'Add new feature'.
- Push your branch: git push origin feature/your-feature-name.
- Submit a pull request.
+- Fork the project.
+- Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name or bugfix/your-bugfix-name.
+- Make your changes.
+- Commit your changes: git commit -m 'Add new feature'.
+- Push your branch: git push origin feature/your-feature-name.
+- Submit a pull request.
 
 ## Support and contact details
 - email :: seanmotanya@gmail.com
