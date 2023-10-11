@@ -5,10 +5,16 @@
 html{
   scroll-behavior: smooth;
 }
-
+body{
+  background-color: rgb(254, 199, 199);
+}
 
 a {
   text-decoration: none;
+}
+button{
+  border-radius: 8px;
+  padding: 3px;
 }
 
 nav{
@@ -18,13 +24,22 @@ nav{
   justify-content: space-between;
   align-items: center;
   margin: 15px 5% 5% 5%;
-  background-color:#10101a;
-  border-radius: 10px;
+  background-color:rgb(239, 157, 157);
+  border-radius: 10px;position: sticky;
+  top: 0;
+  z-index: 100;
+
 }
 
 nav a {
 padding: 10px;
-color: antiquewhite;
+color: white;
+border-radius: 9px;
+
+}
+nav a:hover{
+  cursor: pointer;
+  background-color:rgb(254, 199, 199) ;
 
 }
 
@@ -37,22 +52,54 @@ color: antiquewhite;
 }
 #submit{
   background-color: gray;
-  border-radius: 5px;
+  border-radius: 8px;
   color: white;
+  padding: 5px;
   
 }
 #submit:hover{
- transform: scale(1,1.2);
  background-color: rgb(23, 229, 23);
 }
 
 
-#mainDisplay{
+#mainDisplay .tiles{
+ width: 180px;
+ padding: auto;
+}
+#mainDisplay {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  }
-#mainDisplay img{
- width: 180px;
- padding: auto;
+  overflow: auto;
+  height: 100vh;
+  padding: 5px;
+}
+
+.tiles {
+  flex-basis: calc(33.33% - 10px); /* Adjust this value according to your needs */
+  margin: 15px; /* Adjust this value according to your needs */
+  padding: 5px;
+}
+
+.tiles img{
+  width: 180px;
+}
+
+.update-anime:hover{
+  background-color: rgb(239, 157, 157);
+  color: white;
+}
+
+.shop:hover{
+  background-color: rgb(239, 157, 157);
+  color: white;
+}
+.delete-anime:hover{
+  background-color: red;
+  color: white;
+}
+
+.buy-button:hover{
+  background-color: rgb(239, 157, 157) ;
+  color: white;
 }
