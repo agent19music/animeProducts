@@ -279,3 +279,6 @@ function addAnime(animeDetails) {
       console.error('Error:', error);
   });
 }
+document.addEventListener("DOMContentLoaded", function() {
+  console.log('Ready to go !')
+});
