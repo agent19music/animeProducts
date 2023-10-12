@@ -255,6 +255,15 @@
           "price": 29.99,
           "image": "https://cdnb.artstation.com/p/assets/images/images/045/609/723/large/milos-kojadinovic-thorfinn-karlsefni-08.jpg?1643128434",
           "inStock": 11
+        },
+        {
+          "id": 3,
+          "product_type": "Clothing",
+          "product_name": "Thorfinn Tee",
+          "product_description": "Cotton T shirt with Thorffin print",
+          "price": 19.99,
+          "image": "https://www.japannakama.co.uk/wp-content/uploads/2023/06/Harajuku-Anime-VINLAND-SAGA-Men-T-shirt-Casual-Summer-Short-Sleeve-Washed-T-Shirt-Fashion-Men-6.jpg_640x640-6.jpg",
+          "inStock": 11
         }
       ]
     },
