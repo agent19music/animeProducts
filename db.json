@@ -333,6 +333,15 @@
           "price": 39.99,
           "image": "https://is-it-fake.com/wp-content/uploads/2019/01/kaneki-ken-artfx-j-origin-of-fake-1024x1024.png",
           "inStock": 3
+        },
+        {
+          "id": 4,
+          "product_type": "Collectibles",
+          "product_name": "Kaneki Mask",
+          "product_description": "Ken Kaneki Ghoul Mask",
+          "price": 154.99,
+          "image": "https://m.media-amazon.com/images/I/51ETtigKz7L._AC_UY1000_.jpg",
+          "inStock": 3
         }
       ]
     },
@@ -374,7 +383,7 @@
           "inStock": 6
         },
         {
-          "id": 3,
+          "id": 4,
           "product_type": "Clothing",
           "product_name": "Akatsuki cloak",
           "product_description": "Naruto akatsuki cloak",
