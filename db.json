@@ -372,6 +372,15 @@
           "price": 19.99,
           "image": "https://www.themadshop.com.au/img/product/naruto-kunai-set-6001610-800.jpg",
           "inStock": 6
+        },
+        {
+          "id": 3,
+          "product_type": "Clothing",
+          "product_name": "Akatsuki cloak",
+          "product_description": "Naruto akatsuki cloak",
+          "price": 124.99,
+          "image": "https://www.levicrew.com/cdn/shop/products/61WZKWWPsgL._AC_UL1500.jpg?v=1648316089&width=1445",
+          "inStock": 2
         }
       ]
     },
