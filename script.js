@@ -80,7 +80,7 @@ function displayAnimes() {
                             let merchElement = document.createElement('ul');
                             merchElement.innerHTML = `<div class="tiles">
                                 <h2>${item.product_name}</h2>
-                                <img src="${item.image}" alt="${item.product_name}">
+                                <img src="${item.image}" alt="Loading...">
                                 <p>Description: ${item.product_description}</p>
                                 <p>Category: ${item.product_type}</p>
                                 <p>Price: $${item.price}</p>
